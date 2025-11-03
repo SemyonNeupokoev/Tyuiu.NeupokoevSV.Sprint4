@@ -5,7 +5,7 @@ namespace Tyuiu.NeupokoevSV.Sprint4.Task6.V5.Lib
     {
         public int Calculate(string[] array)
         {
-            string[] a = Array.FindAll(array, x => x.Length == 4);
+            string[] a = Array.FindAll(array, x => x.Length == 5);
             return a.Length;
         }
     }
